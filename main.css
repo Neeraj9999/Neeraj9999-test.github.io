@@ -1,0 +1,80 @@
+*{
+    outline: none;
+    user-select: none;
+    padding: 0;
+    margin: 0;
+}
+#video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.box{
+    width:100vw;
+    height:20vh;
+    position: fixed;
+    bottom: 0;
+    /* box-shadow:inset 0px 0px 200px black; */
+}
+
+
+#capture{
+    border: none;
+    position: fixed;
+    bottom:10px;
+    width:60px;
+    height:60px;
+    color: white;   
+    background: black;
+    border-radius: 50%;
+    left:45vw;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 0px 50px black;
+}
+#capture:active{
+    transform: scale(0.8);
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 15px white;
+}
+
+
+#record{
+    border: none;
+    position: fixed;
+    bottom:10px;
+    right:30px;
+    width:60px;
+    height:60px;
+    color: white;   
+    background: transparent;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px black;
+}
+#record:active{
+    transform: scale(0.8);
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 15px white;
+}
+
+
+
+
+
+img{
+    position: fixed;
+    bottom:0;
+    left:3vw;
+    box-shadow: 0px 0px 20px black;
+    width:100px;
+    height:100px;
+    border-radius: 12px;
+}
+img:active,img:hover{
+    bottom:3px;
+}
